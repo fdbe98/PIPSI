@@ -23,7 +23,7 @@ Una vez dentro, al final del fichero hay que habilitar la opción de _projects_:
 ```
 projects: {
   //To enable the Projects feature, set this value to true
-  enabled: **true**,
+  enabled: __true__,
   workflow: {
     // Set the default projects workflow mode.
     mode: "manual"
@@ -48,7 +48,7 @@ Para solventar esto, hay que descargar el fichero _myWebsocket_ del repositorio 
 ~/.node-red/node_modules
 ```
 ***Nota: Es posible que debido a estas modificaciones alguans conexiones entre nodos se desconecten, por lo que será necesario reconectarlos manualmente***
+A continuación, se muestra el código del prototipo en formato JSON:
 ```
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
+
 ```
