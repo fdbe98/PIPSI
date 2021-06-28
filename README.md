@@ -11,11 +11,24 @@ Instalar Node-RED mediante npm:
 ```
 sudo npm install -g --unsafe-perm node-red
 ```
-En la consola arrancar Node-RED
+En la consola arrancar Node-RED:
 ```
 node-red
 ```
-Seguidamente dirigirse al directorio _.node-red_ y abrir el fichero _settings.js_
+Seguidamente dirigirse al directorio _.node-red_ y abrir el fichero _settings.js_:
+```
+nano /home/NomUsuario/.node-red/settings.js
+```
+Una vez dentro, al final del fichero hay que habilitar la opción de _projects_:
+```
+projects: {
+  //To enable the Projects feature, set this value to true
+  enabled: true,
+  workflow: {
+    // Set the default projects workflow mode.
+    mode: "manual"
+ }
+```
 
 ```
 This is your project's README.md file. It helps users understand what your
