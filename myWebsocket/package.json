@@ -1,0 +1,15 @@
+{
+  "name": "myWebsocket",
+  "version": "1.0.0",
+  "node-red": {
+    "nodes": {
+      "sample": "mi-websocket.js"
+    }
+  },
+  "devDependencies": {
+    "ws": "^7.4.3"
+  }
+}
+
+
+

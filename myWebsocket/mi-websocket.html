@@ -1,0 +1,38 @@
+<script type="text/javascript">
+    RED.nodes.registerType('myWebsocket',{
+        category: 'MyNodes',
+        color: '#ffaaaa',
+        defaults: {
+            name: {value:""},
+	    url: {value:""},
+            subprotocol: {value:""}
+        },
+        inputs:0,
+        outputs:1,
+        icon: "bridge-dash.svg",
+        label: function() {
+            return this.name||"myWebsocket";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="myWebsocket">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name:</label>
+        <input type="text" id="node-input-name">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-url"><i class="fa fa-tag"></i> URL:</label>
+        <input type="text" id="node-input-url" placeholder="ws://localhost.com">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-subprotocol"><i class="fa fa-tag"></i> Subprotocol</label>
+        <input type="text" id="node-input-subprotocol">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="myWebsocket">
+    <p>My own WebSocket Node-RED node</p>
+</script>
