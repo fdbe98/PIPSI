@@ -1,0 +1,12 @@
+{
+    "name": "Pasarela-PIPSI",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_borja-VirtualBox.json",
+            "credentialsFile": "flows_borja-VirtualBox_cred.json"
+        }
+    }
+}
