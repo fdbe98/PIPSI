@@ -2,7 +2,12 @@
     "name": "Pasarela-PIPSI",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "myWebsocket": "1.0.0",
+        "node-red-contrib-fred": "0.0.6",
+        "node-red-contrib-web-worldmap": "2.9.0",
+        "node-red-dashboard": "2.27.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_borja-VirtualBox.json",
