@@ -11,6 +11,11 @@ Instalar Node-RED mediante npm:
 ```
 sudo npm install -g --unsafe-perm node-red
 ```
+En la consola arrancar Node-RED
+```
+node-red
+```
+Seguidamente dirigirse al directorio _.node-red_ y abrir el fichero _settings.js_
 
 ```
 This is your project's README.md file. It helps users understand what your
